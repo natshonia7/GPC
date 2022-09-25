@@ -1,0 +1,151 @@
+.s-3{
+    max-width: 1600px;
+    height:700px;
+    width: 100%;
+    margin-top: 64px;
+    background-color: #FFFFFF;
+  
+  }
+
+  .productmenu{
+    margin-left: 90px;
+    
+   
+  }
+  
+  .product{
+    margin-left: 716px;
+    font-size: 28px;
+    color: #3539c3;
+    margin-bottom: 28px;
+  }
+
+  .Button_2{
+    background-color: #FAFAFA;
+ width: 340px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #fafafa;
+    border: none;
+    margin-left: 19px;
+    color: #3539c3;
+    border-radius: 10px;
+  }
+/*   
+  .btn-1{
+    width: 340px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #3539c3;
+    border: none;
+    margin-left: -12px;
+    border-radius: 10px;
+  } */
+  
+  /* .btn-2{
+   
+
+    
+  } */
+  
+  .cards{
+    margin-left: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+   
+  }
+  
+  .card-1{
+    width: 340px;
+    height: 480px;
+    background-color: #fafafa;
+    margin-left: -11px;
+    
+  }
+  .card-head{
+    display: inline-block;
+    position: relative;
+    background-color: white;
+  }
+  .card-body{
+    background-color: lightgray;
+    width: 340px;
+    height: 180px;
+    position: absolute;
+    margin-top: -120px;
+   
+  }
+  
+  .rocher{
+    color: #1DB3F3;
+    font-size: 20px;
+    margin-left: 20px;
+    
+  }
+  
+  .star{
+   color: #FFBE0B;
+  }
+  
+  .starwhite{
+    color: #F2F2F2;
+  }
+  
+  .starmenu{
+    vertical-align: top;
+    padding-left: 85px;
+  }
+  .star-12{
+    vertical-align: middle;
+    padding-left: 7px;
+  }
+  
+  .p-shampoo{
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+    
+  }
+  
+  .ml{
+    color: gray;
+    font-size: 17px;
+    padding-left: 20px;
+  }
+  
+  .price-1{
+    font-size: 30px;
+    color: #1DB3F3;
+    padding-left: 16px;
+    font-weight: bold;
+  }
+  
+  .price-2{
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+   text-decoration: line-through;
+    
+  }
+  
+  .iconbutton{
+    width: 110px;
+    height: 40px;
+    background-color: #1DB3F3;
+    border: none;
+    margin-left: 25px;
+    color: white;
+   
+  }
+  
+
+  @media(max-width:976px){
+    .productmenu{
+      max-width: 976px;
+      display: none;
+    }
+    .product{
+     margin-left: 30px;
+    }
+  }
