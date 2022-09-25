@@ -1,0 +1,35 @@
+.s-2{
+    max-width: 1600px;  
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+
+.glovo{
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+@media (max-width:1200px) {
+  .imagegpc{
+    max-width: 800px;
+   /* align-items: center; */
+  }
+}
+
+
+@media (max-width:760px) {
+  .imagegpc{
+    max-width: 760px;
+    margin-left: -100px;
+    width: 660px;
+    height: 200px;
+  }
+}
+
+@media (max-width:540px) {
+  
+  .imagegpc{
+    width: 550px;
+    height: auto;
+  }
+}
