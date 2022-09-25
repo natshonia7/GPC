@@ -1,0 +1,111 @@
+@import "~bootstrap/scss/bootstrap";
+
+.App {
+  text-align: left;
+}
+
+.s-1 {
+  padding-top: 50px 0;
+  height: 178px;
+}
+
+// button
+.Button_1 {
+  width: 340px;
+  height: 50px;
+  background-color: #03539c;
+  font-size: 24px;
+  border: none;
+  margin-left: -12px;
+  border-radius: 10px;
+  color: white;
+}
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  // margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.logo {
+  padding-left: 90px;
+  padding-top: 10px;
+}
+
+.navbar {
+  margin-left: 30px;
+}
+
+.menu {
+  display: flex;
+}
+
+.nav-ul {
+  padding-left: 89px;
+  margin-top: 95px;
+  font-size: 20px;
+  color: #3539c3;
+  font-family: BPG Square 38 Caps;
+}
+
+.nav-li {
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.icon {
+  padding-top: 105px;
+  padding-left: 439px;
+}
+
+.bag {
+  width: 24px;
+  height: 24px;
+  color: #3539c3;
+}
+
+.heart {
+  width: 24px;
+  height: 24px;
+  color: #3539c3;
+  padding-left: 5px;
+}
+.person {
+  width: 24px;
+  height: 24px;
+  color: #3539c3;
+  padding-left: 5px;
+}
+
+.personroom {
+  font-size: 20px;
+  color: #3539c3;
+  width: 94px;
+  height: 27px;
+  padding-left: 5px;
+}
+
+.lang {
+  margin-left: -80px;
+  padding-top: 4px;
+  color: #3539c3;
+}
+
+.lang :hover {
+  text-decoration: underline;
+  color: #3539c3;
+}
+
+
+
+@media screen and (max-width:968px) {
+ 
+ 
+  .nav-ul{
+    margin-top: -10px;
+  }
+  .icon{
+    margin-left: -550px;
+  }
+}
